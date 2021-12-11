@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package remote;
+option optimize_for = LITE_RUNTIME;
+option go_package = "github.com/go-webdl/drm/remote";
+
+message SessionData {
+    string  device                  = 1;
+    bytes   device_session_data     = 2;
+}
