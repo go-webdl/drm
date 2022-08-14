@@ -26,6 +26,10 @@ const (
 	SL150  SecurityLevel = "SL150"
 	SL2000 SecurityLevel = "SL2000"
 	SL3000 SecurityLevel = "SL3000"
+
+	// FairPlay Streaminig Security Levels
+	AppleBaseline SecurityLevel = "AppleBaseline"
+	AppleMain     SecurityLevel = "AppleMain"
 )
 
 type LicenseType string
