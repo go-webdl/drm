@@ -11,4 +11,5 @@ var (
 	ErrInvalidParams      = errors.New("invalid parameters")
 	ErrInvalidLicense     = errors.New("invalid license")
 	ErrInvalidInitData    = errors.New("invalid init data")
+	ErrInternalFailure    = errors.New("internal failure")
 )
